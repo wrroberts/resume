@@ -56,7 +56,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this Resume online with links at _wrroberts.github.io/cv/_")
+  cat("View this Resume online with links at _wrroberts.github.io_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/wrroberts/cv/raw/master/roberts_cv.pdf)")
 }
@@ -82,7 +82,7 @@ CV %>% print_skill_bars()
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at [wrroberts.github.io](https://wrroberts.github.io) for more complete list of positions and publications.
+See full CV at [wrroberts.github.io](https://wrroberts.github.io) for more complete list of publications and activities.
 
 
 
@@ -124,12 +124,6 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-
-
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
 
 Teaching and Outreach {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
